@@ -1,0 +1,251 @@
+html * {
+font-family: 'Montserrat', sans-serif;
+  background-color: #fcffff ;
+}
+
+
+
+#aboutus-container{
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#aboutus-header{
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+#aboutus-p{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+#home-header{
+  width: 40%;
+  margin-top:5%;
+  margin-left: 6.25%;
+  margin-bottom: 1%;
+  float:left;
+  font-size: 70px;
+}
+
+#home-p{
+  width: 40%;
+  margin-left: 6.25%;
+  float:left;
+  font-size: 30px;
+}
+
+#home-img{
+  width: 50%;
+  float: right;
+}
+#garden-description{
+  font-size: 25px;
+}
+/*
+#home-img-span{
+  width: 60%;
+  float:right;
+  margin-left:30%;
+}*/
+
+#home-msg{
+  width: 100%;
+}
+
+
+
+
+.navbarlogo{
+  font-size: x-large;
+  margin-left: 5%;
+}
+
+.pressed-nav-link{
+  text-decoration: underline;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: rgb(132, 167, 165);
+}
+
+.navbar{
+  width: 50%;
+  height: 100%;
+}
+
+.navbar-links ul{
+  display: inline-flex;
+  margin-top: 35px;
+}
+
+.navbar-links ul li{
+  list-style: none;
+  margin: 0 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+img.plant-cover {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; 
+
+}
+
+#home-learnbtn{
+  margin-right: 5%;
+}
+
+body{
+	font-size: 20px;
+	color: #333;
+  font-weight: 300;
+  text-align: center;
+}
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+button, button a:visited{
+	font-size: 22px;
+  background-color: #38a;
+  
+	// background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+  transition: transform .2s;
+}
+
+.visited {
+  
+  background-color: red;
+  -webkit-transform: scale(1.15); 
+  transform: scale(1.15);  
+  
+}  
+
+button:hover{
+	// background-color: #38a;
+  -webkit-transform: scale(1.15); 
+  transform: scale(1.15); 
+}
+
+
+
+/* button a, button a:hover {
+  -webkit-transform: scale(1.15); 
+  transform: scale(1.15); 
+  // background-color: #38a;
+  // background-color: transparent;
+} */
+
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.text-section {
+  padding: 4%;
+  margin: 3%;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  text-align: center;
+}
+.text-two{
+  background-color: white;
+  padding: 4%;
+  margin: 3%;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.top-section {
+  background-color: #white;
+  margin: 0px;
+  float: left;
+  padding: 20px;
+  overflow: hidden;
+  transition: transform .2s;
+
+}
+
+.top-section:hover {
+  -webkit-transform: scale(1.15); 
+  transform: scale(1.15); 
+}
+
+}
+.parallax {
+  background-image: url("https://www.linkpicture.com/view.php?img=LPic5fa6d482130611547148776"); 
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button a{
+  background-color: #279;
+	color: #fff;
+}
+.
+#aboutus-pdiv{
+  width: 60%;
+  margin: auto;
+}
