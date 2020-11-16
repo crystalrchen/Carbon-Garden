@@ -1,4 +1,4 @@
-# TTB
+# Carbon Garden - TechTogether Boston
 # Inspiration
 We were inspired by one of our favorite Chrome extensions, Forest! Forest is a way to stay focused in a pleasant way by utilizing trees that grow if the user is bored and wants to see a beautiful graphic while doing work, and die if the user enters a restricted entertainment site when they should be focusing.
 
